@@ -1,0 +1,1 @@
+Asignar permisos de ejecución al archivo scope.sh
