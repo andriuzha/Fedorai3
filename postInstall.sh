@@ -11,6 +11,8 @@ echo "Este Script realiza las siguientes acciones:
   - Google Chrome (Navegador web)
   - lxappareance (Gestionar apariencia facilmente en i3wm)
   - ligth (alternativa a Xbacklight) 
+  - thunar-archive-plugin (gestor de plugin para thunar)
+  - xarchiver (plugin de thunar para comprimir y descomprimir)
 
 Se recomienda cerrar todas las aplicaciones antes de continuar.
 
@@ -55,7 +57,7 @@ echo "Repositorios actualizados con exito"
 echo "Drives Intel instalados con exito"
 echo "Soporte multimedia habilitado"
 echo "Instalando aplicaciones"
-sudo dnf -y install htop nvim ranger cmus mpv mc light google-chrome-stable libtxc_dxtn lxappearance zathura zathura-pdf-mupdf links p7zip p7zip-plugins cava ffmpegthumbnailer tumbler
+sudo dnf -y install htop nvim ranger cmus mpv mc light google-chrome-stable libtxc_dxtn lxappearance zathura zathura-pdf-mupdf links p7zip p7zip-plugins cava ffmpegthumbnailer tumbler thunar-archive-plugin xarchiver
 
 
 clear
